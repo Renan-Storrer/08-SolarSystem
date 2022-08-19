@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+header {
+  background-color: rgb(202, 202, 202);
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.planetCard {
+  align-items: center;
+  display: flex;
+  flex-flow: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+}
+
+.solarSystem {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.solarSystem h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+}
