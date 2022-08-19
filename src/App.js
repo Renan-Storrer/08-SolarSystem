@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './components/Header';
 import SolarSytem from './components/SolarSystem';
 import Mission from './components/Missions';
-import MissionCard from './components/MissionCard';
 
 class App extends React.Component {
   render() {
@@ -11,7 +10,6 @@ class App extends React.Component {
         <Header />
         <SolarSytem />
         <Mission />
-        <MissionCard />
       </div>
     );
   }
