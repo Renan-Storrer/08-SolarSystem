@@ -7,9 +7,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
-        <SolarSytem />
-        <Mission />
+        <div>
+          <Header className="header" />
+          <SolarSytem />
+          <Mission />
+        </div>
       </div>
     );
   }

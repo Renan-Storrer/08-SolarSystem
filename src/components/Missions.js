@@ -6,7 +6,7 @@ import missions from '../data/missions';
 class Mission extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div data-testid="missions" className="missions-section">
         <Title headline="Missões" />
         {
           missions.map((missao) => {
