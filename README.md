@@ -28,11 +28,11 @@ Após cada um dos passos, haverá um exemplo do comando a ser digitado para faze
 
 3. Acesse o diretório do projeto e depois utilize o comando **npm i** para instalar todas as dependências necessárias:
 ```javascript
-  cd project-solar-system
+  cd 08-SolarSystem
   npm i
 ```
 
-4. Por último, rode o comando **npm start** e acesse o projeto via browser, no caminho `http://localhost:3000/project-solar-system`.
+4. Por último, rode o comando **npm start** e acesse o projeto via browser, no caminho `http://localhost:3000/08-SolarSystem`.
 
 ```javascript
   npm start
